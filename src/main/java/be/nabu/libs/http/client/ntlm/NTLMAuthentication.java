@@ -6,9 +6,9 @@ import org.apache.http.impl.auth.NTLMEngine;
 import org.apache.http.impl.auth.NTLMEngineException;
 
 import be.nabu.libs.http.api.NTLMPrincipal;
-import be.nabu.libs.http.api.client.AuthenticationHandler;
+import be.nabu.libs.http.api.client.ClientAuthenticationHandler;
 
-public class NTLMAuthentication implements AuthenticationHandler {
+public class NTLMAuthentication implements ClientAuthenticationHandler {
 
 	private NTLMEngine engine = new NTLMEngineImpl();
 	
