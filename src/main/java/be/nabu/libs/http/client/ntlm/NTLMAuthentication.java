@@ -5,7 +5,7 @@ import java.security.Principal;
 import org.apache.http.impl.auth.NTLMEngine;
 import org.apache.http.impl.auth.NTLMEngineException;
 
-import be.nabu.libs.http.api.NTLMPrincipal;
+import be.nabu.libs.authentication.api.principals.NTLMPrincipal;
 import be.nabu.libs.http.api.client.ClientAuthenticationHandler;
 
 public class NTLMAuthentication implements ClientAuthenticationHandler {
